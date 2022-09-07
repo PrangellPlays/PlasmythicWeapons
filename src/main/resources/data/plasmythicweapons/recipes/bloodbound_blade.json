@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " nb",
+    "sbn",
+    "s  "
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "plasmythicweapons:blood_stained_crystal"
+    }
+  },
+  "result": {
+    "item": "plasmythicweapons:bloodbound_blade"
+  }
+}

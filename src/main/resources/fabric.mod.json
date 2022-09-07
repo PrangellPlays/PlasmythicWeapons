@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "plasmythicweapons",
+  "version": "${version}",
+
+  "name": "Plasmythic Weaponries",
+  "description": "The Plasmythic Weaponries Mod",
+  "authors": [
+    "PrangellPlays"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT License",
+  "icon": "assets/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.prangellplays.plasmythicweapons.PlasmythicWeaponries"
+    ],
+    "client": [
+      "net.prangellplays.plasmythicweapons.PlasmythicWeaponsClient"
+    ]
+  },
+  "mixins": [
+    "plasmythicweapons.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

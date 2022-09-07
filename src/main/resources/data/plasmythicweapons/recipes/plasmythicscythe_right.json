@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "pnp",
+    "n s",
+    "  s"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "p": {
+      "item": "plasmythicweapons:plasmythic_crystal"
+    }
+  },
+  "result": {
+    "item": "plasmythicweapons:plasmythic_scythe"
+  }
+}

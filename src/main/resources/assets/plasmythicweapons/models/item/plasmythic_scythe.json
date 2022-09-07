@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "plasmythicweapons:item/plasmythic_scythe"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 30],
+			"translation": [0, 2.75, 1.75],
+			"scale": [1.5, 1.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -30],
+			"translation": [0, 2.75, 1.75],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 50],
+			"translation": [4.5, 0, 0],
+			"scale": [1.5, 1.5, 0.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -50],
+			"translation": [4.5, 0, 0],
+			"scale": [1.5, 1.5, 0.25]
+		},
+		"head": {
+			"translation": [0, 13.5, 0]
+		}
+	}
+}
